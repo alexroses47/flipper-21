@@ -1,0 +1,13 @@
+App(
+    appid="juego_21",
+    name="Game of 21 ",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="juego_21_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_category="Games",
+    fap_description="Juego del 21 - quien diga 21 pierde",
+    fap_author="Ismael A. Rodríguez",
+    fap_version="0.2",
+    fap_icon="juego_21.png",
+)
